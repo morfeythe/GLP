@@ -1,0 +1,4 @@
+/build
+/app/*.jks
+/release/app-release.apk
+/my-release-key-for-glp.jks

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.GP" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/dark_background</item>
+    </style>
+
+    <!-- Тема для системного сплеш-экрана (Android 12+) -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- Цвет фона сплеша (делаем темным, чтобы не было белой вспышки) -->
+        <item name="windowSplashScreenBackground">#121212</item>
+        <!-- Иконка на сплеше (можно поставить свою или логотип) -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_icon_padded</item>
+        <!-- Тема, которая включится сразу после скрытия сплеша -->
+        <item name="postSplashScreenTheme">@style/Theme.GP</item>
+        <!-- Делаем статус-бар и навбар прозрачными прямо во время сплеша -->
+
+    </style>
+
+    <style name="Theme.GLP" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
